@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="contactanos.html">
+    <link rel="stylesheet" href="gastronomia.html">
+    <link rel="stylesheet" href="teque.html">
+    <link rel="stylesheet" href="somos.html">
+    <link rel="shortcut icon" href="favicon/Logo Rincon Del gocho En BApng.ico" type="image/x-icon">
+    <title>Rincon Del Gocho - El Verdadero Placer</title>
+
+</head>
+    <body>
+        <header>
+                <div class="titulo">Rincon del Gocho</div>
+            <ul class="menu">
+                <li>
+                    <a href="teque.html">Inicio</a> 
+                </li>
+                <li>
+                    <a href="Gastronomia.html">Menu</a>
+                </li>
+                <li>
+                    <a href="Somos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="contactanos.html">Contactanos</a>
+                </li>  
+            </ul>
+        </header>
+
+        <main>
+            <div class="somos1">
+                <div class="slideshow-container">       
+                    <div class="mySlides fade">
+                    <img src="/Img/combobebida.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <img src="/Img/combofiesta.jpg" style="width:100%">
+                    </div>
+            
+                    <div class="mySlides fade">
+                    <img src="/Img/Slide3.png" style="width:100%">
+                    </div>
+            
+                    <div class="mySlides fade">
+                    <img src="/Img/combominis.jpg" style="width:100%">
+                    </div>
+                </div>
+                <br>
+                    <h2 class="somos">Somos</h2>
+                    <div class="somos3">
+                        <p>
+                            Bienvenidos a Rincon del Gocho, tu puerta de entrada a un viaje culinario a través de los exquisitos sabores de los Andes Venezolanos. En el corazón de nuestra cocina, encontrarás una rica tradición de platos auténticos que han sido transmitidos de generación en generación.
+                        </p>
+                        <br>
+                        <p>
+                            En Rincon del Gocho, nuestra pasión es compartir la auténtica comida andina, elaborada con amor y cuidado. Nuestros chefs se enorgullecen de utilizar ingredientes frescos y de la más alta calidad para preparar cada platillo. Cada bocado es una celebración de los aromas, los colores y los sabores que hacen que la comida andina sea tan especial.
+                        </p>
+                        <br>
+                        >> Modernos en el estilo y clásicos en el sabor.
+                        <br>
+                        <br>
+                        >> Un equipo de profesionales que hemos creado el restaurante donde nos gustaría comer a diario y en las ocasiones especiales. Con menú o a la carta. Con amigos o con clientes, con tiempo para disfrutar o con algo más de prisa porque el trabajo lo requiere.
+                        <br>
+                        <br>
+                        >> Firmes defensores de que calidad no está en el precio, sino en el producto.
+                        <br>
+                        <br>
+                        >> Somos nuevos, pero también somos expertos. Rincon Del Gocho, nuestro restaurante en la avenida Corrientes (Obelisco), nos ha permitido crecer y creer. Sabemos más y queremos demostrarlo.
+                    </div>
+                </div>
+            </div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3000);
+    }
+    </script>
+        </main>
+<br>
+        <footer class="somosss">
+                <li>
+                    <a class="hh" href="#" title="enviar email">
+                        rincondelgocho@gmail.com
+                    </a> 
+                </li>
+                
+                <li>
+                    <a class="hh" href="#" title="WhatsApp">
+                        (+54)91128747959
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="hh" id="spacing" href="#" title="google maps">
+                        Av. Corrientes, 9 de Julio (obelisco)
+                    </a>
+                </li>
+                <br>
+                <p> &COPY; 2023 <b>Rincon Del Gocho</b> - todos los derechos reservados </p>
+            </footer>
+    </body>
+</html>
