@@ -83,7 +83,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url(/Img/tequeteque.jpg) no-repeat;
+  background: url(/Img/tequenosback.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
