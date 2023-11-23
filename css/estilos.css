@@ -100,7 +100,6 @@ header {
 
 .text-content {
   display: flexbox;
-  /* position:fixed; */
   align-items: center;
   align-content: center;
   text-align: left;
