@@ -107,7 +107,7 @@ header {
 }
 
 .letra {
-  font-size: 50px;
+  font-size: 350%;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 2px #0f0f0f;
   text-shadow: left #35d65d;
@@ -119,14 +119,14 @@ header {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   /* background solo en texto*/
-  font-size: 64px;
+  font-size: 400%;
   font-weight: 700;
   -webkit-text-stroke: 2px #0a0a0a;
 }
 
 .sabor-uni {
   color: black;
-  font-size: 40px;
+  font-size: 300%;
   font-weight: bold;
   margin: 5px 0;
   display: flex;
@@ -447,15 +447,27 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
-  .somos1 {
+  .somos1, .formulario {
       width: 90%;
+  }
+  .letra, .name {
+    font-size: xx-large;
+  }
+  .sabor-uni {
+    font-size: x-large;
   }
 }
 
 @media only screen and (max-width: 768px) {
   /* Estilos específicos para pantallas más pequeñas */
-  .somos1 {
+  .somos1, .formulario {
       width: 90%;
+  }
+  .letra, .name {
+    font-size: xx-large;
+  }
+  .sabor-uni {
+    font-size: x-large;
   }
 }
 
@@ -470,8 +482,14 @@ only screen and (min-resolution: 192dpi) {
 
 @media only screen and (max-width: 767px) and (max-resolution: 120dpi) {
   /* Estilos para pantallas con baja resolución */
-  .somos1 {
+  .somos1, .formulario {
       width: 90%;
+  }
+  .letra, .name {
+    font-size: xx-large;
+  }
+  .sabor-uni {
+    font-size: x-large;
   }
 }
 
