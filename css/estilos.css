@@ -8,19 +8,19 @@
 .menus-container {
   flex-wrap: wrap;
   justify-content: center;
-  margin: 100px;
-  display: grid;
+  margin: 10px;
+  display: flex;
   grid-template-columns: repeat(4, 400px);
   grid-template-rows: repeat(2, 370px);
   gap: 50px;
 }
 
 .menusItem {
-  border: 1px solid rgb(243, 207, 46);
+  border: 1px solid #F2AF5C;  ;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
-  width: 250px;
+  width: 270px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
@@ -47,7 +47,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  border-left: 1px solid black; 
 }
 
 .menu li {
@@ -57,11 +56,11 @@
 }
 
 .menu li a {
-  padding: 1em;
-  display: block;
+  padding: 2.5em;
+  display: flex;
   text-decoration: none;
-  color: black;
-  background: #f78504;
+  color: #000000;
+  flex-wrap: nowrap;
 } 
 
 .menu li a:hover{ 
@@ -69,12 +68,12 @@
 }
 
 .titulo { 
-  position: absolute;        
+  display: flex;      
   left: 10px;
   margin: 10px;
-  color: rgb(56, 177, 45);
-  text-shadow: 5px 5px 5px black;
-  font-size: 52px;
+  color: #F2F2F2;
+  text-shadow: 4px 3px 4px black;
+  font-size: 45px;
   -webkit-text-stroke: 1px white;  
   font-weight: bold;
 }
@@ -89,14 +88,13 @@ body {
 }
 
 header{ 
-  position: absolute;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 64px;
+  height: 9%;
   left: 0;
   top: 0;
-  background-color: #f78504;
+  background-color:#F2AF5C;
 }
 
 .text-content{ 
@@ -107,7 +105,7 @@ header{
 
 .letra{
   font-size: 50px;
-  color: white;
+  color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 2px #0f0f0f;
   text-shadow: left #35d65d;
 }
@@ -185,7 +183,7 @@ button {
   }
 
 footer {
-  background: #f78504;
+  background: #F2AF5C;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -246,12 +244,12 @@ footer {
 }
 
 .formulario {
-max-width: 400px;  
+max-width: 600px;  
 margin: 0 auto;
 margin-bottom: 20px;
-margin-top: 70px;
+margin-top: 0px;
 padding: 50px;
-background-color: #cc4406;
+background-color:#F2F2F2;
 border-radius: 20px;
 box-shadow: 5px 5px 15px 2px;
 font-size: 18px;
@@ -263,7 +261,7 @@ input[type="tel"],
 select,
 textarea {
   width: 100%;
-  padding: 8px;
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -304,12 +302,11 @@ input[type="submit"], input[type="reset"] {
 .nodudes {
   text-align: center;
   color: black;
-  text-shadow: 2px 2px 8px rgb(241, 241, 6);
 }
 
 a {
-  letter-spacing: 2px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: Poppins',sans-serif;
 }
 
 .error {
@@ -358,9 +355,9 @@ a {
 .somos1{
   width: 800px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 50px;
-  background-color: #cc4406;
+  background-color: #F2F2F2;
   border-radius: 20px;
   box-shadow: 5px 5px 15px 2px;
   font-size: 18px;
@@ -389,7 +386,7 @@ a {
 }
 
 .somos3 {
-  color: white
+  color: rgb(0, 0, 0)
 }
 
 a {
@@ -432,4 +429,30 @@ iframe {
   width: 100%;
   height: 300px;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para pantallas más pequeñas */
+}
+@media only screen and (min-width: 1280px) {
+  /* Estilos para pantallas grandes (desktops) */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  /* Estilos para pantallas con alta resolución */
+}
+
+@media only screen and (max-width: 767px) and (max-resolution: 120dpi) {
+  /* Estilos para pantallas con baja resolución */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* Estilos para pantallas medianas (laptops) */
+}
 }
