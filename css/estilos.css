@@ -447,6 +447,22 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(2, 20%);
+    gap: 15%;
+  }
+
+  .menu li a {
+    padding: 1.5em;
+  }
+
   .somos1, .formulario {
       width: 90%;
   }
@@ -460,6 +476,22 @@ iframe {
 
 @media only screen and (max-width: 768px) {
   /* Estilos específicos para pantallas más pequeñas */
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(2, 20%);
+    gap: 15%;
+  }
+
+  .menu li a {
+    padding: 1.5em;
+  }
+  
   .somos1, .formulario {
       width: 90%;
   }
@@ -482,6 +514,22 @@ only screen and (min-resolution: 192dpi) {
 
 @media only screen and (max-width: 767px) and (max-resolution: 120dpi) {
   /* Estilos para pantallas con baja resolución */
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(2, 20%);
+    gap: 15%;
+  }
+
+  .menu li a {
+    padding: 1.5em;
+  }
+
   .somos1, .formulario {
       width: 90%;
   }
